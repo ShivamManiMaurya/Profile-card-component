@@ -1,0 +1,108 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 98vh;
+    
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    background-image: url("./image/bg-pattern-top.svg"), url("./image/bg-pattern-bottom.svg");
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat, no-repeat;
+    background-position:bottom -140% left -40%,top -140% right -40%;
+    /* background-attachment: fixed, fixed; */
+    /* background-position: center, center; */
+    /* background-size: cover, cover; */
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        /* background-image: url("./image/bg-pattern-top.svg"), url("./image/bg-pattern-bottom.svg");
+        background-color: hsl(185, 75%, 39%);
+        background-repeat: no-repeat, no-repeat;
+        background-position: bottom -140% left -40%,top -140% right -40%; */
+    }
+}
+
+.main-div {
+    max-width: 19rem;
+    min-height: 22rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.div-bg-img {
+    border-radius: 1rem 1rem 0rem 0rem;
+    max-width: 19rem;
+}
+
+.victor-img-div {
+    background-color: white;
+    display: block;
+}
+
+.victor-img {
+    border-radius: 10rem;
+    border: 0.5rem solid white;
+    position: relative;
+    left: 6rem;
+    bottom: 3.8rem;
+    display: block;
+}
+
+.mid-div {
+    height: 0;
+}
+
+.heading {
+    position: relative;
+    bottom: 4rem;
+    margin-bottom: 0;
+}
+
+.heading span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 500;
+}
+
+.para-place {
+    position: relative;
+    bottom: 4rem;
+    margin-top: 0.5rem;
+    color: hsl(0, 0%, 59%);
+}
+
+hr {
+    position: relative;
+    bottom: 4rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.last-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: small;
+    letter-spacing: 1px;
+    
+}
+
+hr {
+    border: 0.1px solid hsl(0, 0%, 89%);
+    border-radius: 5px;
+}
+
+.child {
+    
+}
+
+.child-heading {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.child-para {
+    margin-top: 5px;
+    font-size: smaller;
+    color: hsl(0, 0%, 59%);
+}

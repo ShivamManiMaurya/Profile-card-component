@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/Profile-card-component/static/js/main.598bcd21.js",
+    "static/media/bg-pattern-card.svg": "/Profile-card-component/static/media/bg-pattern-card.b61daebd3cb4b885d10fd683755d49bb.svg",
+    "index.html": "/Profile-card-component/index.html",
+    "main.598bcd21.js.map": "/Profile-card-component/static/js/main.598bcd21.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.598bcd21.js"
+  ]
+}
